@@ -1,4 +1,4 @@
-# Exercise_00
+# latihan_00
 
 <b>This exercise aims to understand the basics of web application development using Django. In this exercise, you will learn:</b>
 
