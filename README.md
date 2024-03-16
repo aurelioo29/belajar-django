@@ -5,6 +5,14 @@
 1. Create a Django application.
 2. Define the Model class in Django to represent data.
 3. Using Django ORM (Get and Post Data)
+4. Displays the entire contents of the table
+5. Displays 1 column from the table
+6. Display Multiple Columns From a Table
+7. Data Filtering (filter, exclude, get)
+8. Data Iteration
+9. Checking data in tables
+10. Update Large Amounts of Data
+11. Delete Large Amounts of Data
 
 ## Django Installation Steps
 
