@@ -48,7 +48,7 @@ class Book(models.Model):
 
 # latihan one to one
 class Vehicle(models.Model):
-  reg_no=models.IntegerField()
+  reg_no=models.IntegerField(unique=True)
   owner=models.CharField(max_length=100)
   
   def __str__(self):
