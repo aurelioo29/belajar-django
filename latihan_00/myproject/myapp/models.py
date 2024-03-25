@@ -45,3 +45,18 @@ class Book(models.Model):
 
   def __str__(self):
     return self.title
+
+# latihan one to one
+class Vehicle(models.Model):
+  reg_no=models.IntegerField()
+  owner=models.CharField(max_length=100)
+  
+  def __str__(self):
+    return str(self.reg_no)
+
+class Car(models.Model):
+  vehicle = models.OneToOneField(Vehicle, on_delete=models.CASCADE, primary_key=True)
+  car_model = models.CharField(max_length=100)
+  
+  def __str__(self):
+    return str(self.vehicle)
