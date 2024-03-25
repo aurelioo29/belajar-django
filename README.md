@@ -13,6 +13,9 @@
 9. Checking data in tables
 10. Update Large Amounts of Data
 11. Delete Large Amounts of Data
+12. Many to One
+13. Many to Many
+14. One to One
 
 ## Django Installation Steps
 
